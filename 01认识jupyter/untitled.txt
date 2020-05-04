@@ -1,0 +1,2 @@
+在终端中打开Jupyter的方式是：
+    jupyter notebook

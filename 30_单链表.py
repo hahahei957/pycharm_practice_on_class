@@ -15,6 +15,7 @@ class LinkList:
         a = self.head
         # 如果不是初始化阶段创建表，则我们不能从self.head开始创建链表，而是从链表尾部开始创建链表
         if not first_time:
+            # 使a指向链表的末端
             while a.next is not None:
                 a = a.next
         while data != "#":
